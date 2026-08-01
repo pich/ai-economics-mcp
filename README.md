@@ -16,7 +16,7 @@ stateless (inputs are never stored). The math is the same as the interactive cal
   "mcpServers": {
     "ai-economics": {
       "command": "npx",
-      "args": ["-y", "ai-economics-mcp"]
+      "args": ["-y", "@michalpiszczek/ai-economics-mcp"]
     }
   }
 }
@@ -25,7 +25,7 @@ stateless (inputs are never stored). The math is the same as the interactive cal
 **Claude Code one-liner:**
 
 ```bash
-claude mcp add ai-economics -- npx -y ai-economics-mcp
+claude mcp add ai-economics -- npx -y @michalpiszczek/ai-economics-mcp
 ```
 
 ## Tools
