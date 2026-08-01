@@ -1,5 +1,7 @@
 # ai-economics-mcp
 
+[![npm](https://img.shields.io/npm/v/%40michalpiszczek%2Fai-economics-mcp?label=npm)](https://www.npmjs.com/package/@michalpiszczek/ai-economics-mcp) [![Glama score](https://glama.ai/mcp/servers/pich/ai-economics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pich/ai-economics-mcp) [![MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 **MCP server for AI economics.** Gives Claude, Cursor and any MCP client 12 calculators for
 the questions that decide AI budgets: what tokens cost, what queries burn, and whether agent
 work can be proven.
