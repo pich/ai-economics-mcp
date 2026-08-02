@@ -1,0 +1,28 @@
+{
+  "upload_type": "software",
+  "title": "ai-economics-mcp: calculators for AI cost, energy and verification, as MCP tools",
+  "description": "<p>Twelve deterministic calculators exposed as Model Context Protocol tools, so an agent can price its own work instead of estimating it: token cost across GPT, Claude, Gemini and DeepSeek with prompt-cache discount; context-window sizing; fully-loaded agent-hour cost including human review; model-routing savings; LLM energy, cost and CO<sub>2</sub>; joules per verified task; Proof-Adjusted Autonomy; revocation exposure; and proof debt. Every response carries the formula it used, so the number can be checked rather than trusted.</p><p>No API key and no account. Inputs are never stored. Interactive versions of the same calculators are at <a href=\"https://piszczek.pl/tools\">https://piszczek.pl/tools</a>, which also serves the same math as a free keyless HTTP API with an OpenAPI 3.1 specification.</p>",
+  "creators": [
+    {
+      "name": "Piszczek, Michał",
+      "orcid": "0009-0000-5182-5756",
+      "affiliation": "Archdesk"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "Model Context Protocol",
+    "LLM cost",
+    "AI energy",
+    "FinOps",
+    "Proof-Adjusted Autonomy",
+    "Joules per Verified Task",
+    "revocation exposure"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://piszczek.pl/tools", "relation": "isDocumentedBy", "resource_type": "other", "scheme": "url" },
+    { "identifier": "https://piszczek.pl/openapi.json", "relation": "isDescribedBy", "resource_type": "other", "scheme": "url" },
+    { "identifier": "https://www.npmjs.com/package/@michalpiszczek/ai-economics-mcp", "relation": "isIdenticalTo", "resource_type": "software", "scheme": "url" }
+  ]
+}

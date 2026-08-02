@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these calculators or cite their output, please cite this software."
+title: "ai-economics-mcp: calculators for AI cost, energy and verification, as MCP tools"
+abstract: >-
+  Twelve deterministic calculators exposed as Model Context Protocol tools, so an
+  agent can price its own work instead of estimating it: token cost across GPT,
+  Claude, Gemini and DeepSeek with prompt-cache discount; context-window sizing;
+  fully-loaded agent-hour cost including human review; model-routing savings; LLM
+  energy, cost and CO2; joules per verified task; Proof-Adjusted Autonomy;
+  revocation exposure; and proof debt. Every response carries the formula it used.
+  No API key, no account, and inputs are never stored.
+type: software
+authors:
+  - given-names: "Michał"
+    family-names: "Piszczek"
+    orcid: "https://orcid.org/0009-0000-5182-5756"
+    website: "https://piszczek.pl"
+    affiliation: "Archdesk"
+repository-code: "https://github.com/pich/ai-economics-mcp"
+url: "https://piszczek.pl/tools"
+license: MIT
+version: "1.0.1"
+keywords:
+  - model context protocol
+  - llm cost
+  - ai energy
+  - finops
+  - proof-adjusted autonomy
+  - joules per verified task
