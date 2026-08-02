@@ -6,12 +6,12 @@
     "url": "https://github.com/pich/ai-economics-mcp",
     "source": "github"
   },
-  "version": "1.0.2",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@michalpiszczek/ai-economics-mcp",
-      "version": "1.0.2",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       },

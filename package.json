@@ -1,6 +1,6 @@
 {
   "name": "@michalpiszczek/ai-economics-mcp",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "mcpName": "pl.piszczek/ai-economics",
   "description": "MCP server for AI economics: token cost, context windows, agent-hour cost, LLM energy, joules per verified task, Proof-Adjusted Autonomy, revocation exposure and more. Wraps the free piszczek.pl/tools API — no key required.",
   "type": "module",
