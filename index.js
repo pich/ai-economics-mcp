@@ -168,7 +168,7 @@ const TOOLS = {
   },
 };
 
-const server = new McpServer({ name: "ai-economics", version: "1.0.0" });
+const server = new McpServer({ name: "ai-economics", version: "1.0.2" });
 
 for (const [slug, def] of Object.entries(TOOLS)) {
   server.tool(
