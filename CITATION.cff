@@ -15,7 +15,6 @@ authors:
     family-names: "Piszczek"
     orcid: "https://orcid.org/0009-0000-5182-5756"
     website: "https://piszczek.pl"
-    affiliation: "Archdesk"
 repository-code: "https://github.com/pich/ai-economics-mcp"
 url: "https://piszczek.pl/tools"
 license: MIT

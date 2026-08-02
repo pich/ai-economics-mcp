@@ -5,8 +5,7 @@
   "creators": [
     {
       "name": "Piszczek, Michał",
-      "orcid": "0009-0000-5182-5756",
-      "affiliation": "Archdesk"
+      "orcid": "0009-0000-5182-5756"
     }
   ],
   "license": "MIT",
@@ -21,8 +20,23 @@
     "revocation exposure"
   ],
   "related_identifiers": [
-    { "identifier": "https://piszczek.pl/tools", "relation": "isDocumentedBy", "resource_type": "other", "scheme": "url" },
-    { "identifier": "https://piszczek.pl/openapi.json", "relation": "isDescribedBy", "resource_type": "other", "scheme": "url" },
-    { "identifier": "https://www.npmjs.com/package/@michalpiszczek/ai-economics-mcp", "relation": "isIdenticalTo", "resource_type": "software", "scheme": "url" }
+    {
+      "identifier": "https://piszczek.pl/tools",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://piszczek.pl/openapi.json",
+      "relation": "isDescribedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.npmjs.com/package/@michalpiszczek/ai-economics-mcp",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
   ]
 }
