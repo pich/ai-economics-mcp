@@ -6,7 +6,7 @@
 the questions that decide AI budgets: what tokens cost, what queries burn, and whether agent
 work can be proven.
 
-Wraps the free [piszczek.pl/tools](https://piszczek.pl/tools) API — no key, no sign-up,
+Listed in the official [MCP Registry](https://registry.modelcontextprotocol.io) as **`pl.piszczek/ai-economics`** (domain-verified). Wraps the free [piszczek.pl/tools](https://piszczek.pl/tools) API — no key, no sign-up,
 stateless (inputs are never stored). The math is the same as the interactive calculators.
 
 ## Install
