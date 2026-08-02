@@ -1,5 +1,7 @@
 # ai-economics-mcp
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21760145.svg)](https://doi.org/10.5281/zenodo.21760145)
+
 [![npm](https://img.shields.io/npm/v/%40michalpiszczek%2Fai-economics-mcp?label=npm)](https://www.npmjs.com/package/@michalpiszczek/ai-economics-mcp) [![Glama score](https://glama.ai/mcp/servers/pich/ai-economics-mcp/badges/score.svg)](https://glama.ai/mcp/servers/pich/ai-economics-mcp) [![MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 **MCP server for AI economics.** Gives Claude, Cursor and any MCP client 12 calculators for
