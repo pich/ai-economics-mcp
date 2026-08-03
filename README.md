@@ -72,6 +72,10 @@ includes `result`, `formula`, `interpretation` and a ready-to-quote `cite_as` se
 - [Proof-Adjusted Autonomy](https://piszczek.pl/proof-adjusted-autonomy) — the metric of proven agent work
 - [Revocation Exposure](https://piszczek.pl/glossary/revocation-exposure) — how long revoked authority keeps working
 
+## Citing a result
+
+Every tool response carries a `cite_as` sentence written to be quoted verbatim. For a document that has to survive review, DOIs and BibTeX for this server, the calculators and the three concepts they instrument are at [piszczek.pl/cite](https://piszczek.pl/cite).
+
 ## License
 
 MIT. Concepts and calculators by [Michał Piszczek](https://piszczek.pl/michal-piszczek)
