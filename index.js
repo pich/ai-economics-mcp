@@ -9,8 +9,10 @@
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { createRequire } from "node:module";
 import { z } from "zod";
 
+const { version: VERSION } = createRequire(import.meta.url)("./package.json");
 const BASE = process.env.AI_ECONOMICS_API ?? "https://piszczek.pl/tools/api";
 
 const num = (desc) => z.number().optional().describe(desc);
@@ -168,7 +170,7 @@ const TOOLS = {
   },
 };
 
-const server = new McpServer({ name: "ai-economics", version: "1.0.1" });
+const server = new McpServer({ name: "ai-economics", version: VERSION });
 
 for (const [slug, def] of Object.entries(TOOLS)) {
   server.tool(
@@ -183,7 +185,7 @@ for (const [slug, def] of Object.entries(TOOLS)) {
         if (v !== undefined && v !== null) qs.set(k, String(v));
       }
       const url = `${BASE}/${slug}${qs.size ? "?" + qs.toString() : ""}`;
-      const res = await fetch(url, { headers: { "User-Agent": "ai-economics-mcp/1.0" } });
+      const res = await fetch(url, { headers: { "User-Agent": `ai-economics-mcp/${VERSION}` } });
       if (!res.ok) {
         return {
           content: [{ type: "text", text: `API error ${res.status} for ${url}` }],
