@@ -66,6 +66,28 @@ includes `result`, `formula`, `interpretation` and a ready-to-quote `cite_as` se
 |---|---|---|
 | `AI_ECONOMICS_API` | `https://piszczek.pl/tools/api` | Point at a self-hosted instance |
 
+## Glama builds and releases
+
+Glama generates its own Dockerfile from the
+[build configuration](https://glama.ai/mcp/servers/pich/ai-economics-mcp/admin/dockerfile).
+Use these settings:
+
+- Build steps: `["npm ci --omit=dev"]`
+- CMD arguments: `["mcp-proxy", "--", "node", "index.js"]`
+- Environment variables: optional `AI_ECONOMICS_API`; no credentials required.
+
+This is plain JavaScript: there is no `build` script or compilation step. Do not use
+`pnpm run build` or `npm run build`. After syncing the repository, build the selected
+commit and publish a Glama release from the successful test. A GitHub or npm release
+alone does not trigger Glama's quality evaluation.
+
+For local stdio use, the repository Dockerfile needs no proxy or exposed ports:
+
+```bash
+docker build -t ai-economics-mcp .
+docker run -i --rm ai-economics-mcp
+```
+
 ## Concepts behind the tools
 
 - [Joule Wars](https://piszczek.pl/joule-wars) — the AI race for energy efficiency
